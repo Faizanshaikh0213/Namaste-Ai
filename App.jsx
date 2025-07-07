@@ -10,7 +10,7 @@ try {
   const res = await fetch('https://openrouter.ai/api/chat', {
     method: 'POST',
     headers: {
-      'Authorization': 'Bearer YOUR_OPENROUTER_API_KEY',
+      'Authorization': 'Bearer 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,
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({
